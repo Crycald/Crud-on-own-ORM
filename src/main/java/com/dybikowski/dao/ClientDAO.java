@@ -1,14 +1,14 @@
 package com.dybikowski.dao;
 
-import com.dybikowski.model.CarDTO;
+import com.dybikowski.model.Client;
 import com.dybikowski.persistance.PersistenceManager;
 
 import java.util.List;
 
-public class CarDao {
+public class ClientDAO {
     private PersistenceManager persistence;
 
-    public CarDTO add(CarDTO carDTO) {
+    public Client add(Client client) {
         return null;
     }
 
@@ -16,11 +16,11 @@ public class CarDao {
 
     }
 
-    public CarDTO update(CarDTO carDTO) {
+    public Client update(Client carDTO) {
         return null;
     }
 
-    public List<CarDTO> findAll() {
+    public List<Client> findAll() {
         return null;
     }
 }

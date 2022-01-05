@@ -1,7 +1,6 @@
-package com.dybikowski.action.car;
+package com.dybikowski.action.client;
 
 import com.dybikowski.action.Action;
-import com.dybikowski.model.Role;
 
 import java.util.List;
 
@@ -15,10 +14,5 @@ public class AddCarAction implements Action {
     @Override
     public void execute() {
 
-    }
-
-    @Override
-    public List<Role> getAllowedRoles() {
-        return null;
     }
 }

@@ -1,31 +1,30 @@
 package com.dybikowski.view.display;
 
-import com.dybikowski.view.CarView;
+import com.dybikowski.view.ClientView;
 
-public class CarConsoleView implements CarView {
-
+public class ClientConsoleView implements ClientView {
     @Override
     public String getId() {
         return null;
     }
 
     @Override
-    public String getName() {
+    public String getFirstName() {
         return null;
     }
 
     @Override
-    public String getModel() {
+    public String getLastName() {
         return null;
     }
 
     @Override
-    public String getEngineId() {
+    public String getPhoneNumber() {
         return null;
     }
 
     @Override
-    public String getEngineCapacity() {
+    public String getEmailAddress() {
         return null;
     }
 }
