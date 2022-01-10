@@ -4,7 +4,7 @@ import com.dybikowski.action.Action;
 
 import java.util.List;
 
-public class AddCarAction implements Action {
+public class DeleteClientAction implements Action {
 
     @Override
     public String getDisplayName() {

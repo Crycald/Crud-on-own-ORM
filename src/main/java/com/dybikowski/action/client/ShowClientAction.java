@@ -4,7 +4,7 @@ import com.dybikowski.action.Action;
 
 import java.util.List;
 
-public class DeleteCarAction implements Action {
+public class ShowClientAction implements Action {
 
     @Override
     public String getDisplayName() {
@@ -14,10 +14,5 @@ public class DeleteCarAction implements Action {
     @Override
     public void execute() {
 
-    }
-
-    @Override
-    public List<Role> getAllowedRoles() {
-        return null;
     }
 }
